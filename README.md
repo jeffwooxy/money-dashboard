@@ -1,0 +1,1 @@
+An interactive, web-based dashboard to visualize personal financial data, aiming to serve as a strong portfolio piece for Data Analyst roles.
