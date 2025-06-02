@@ -1,0 +1,15 @@
+# docker-compose.yml
+services:
+  db:
+    image: postgres:16-alpine # Using a recent stable version
+    restart: always
+    environment:
+      POSTGRES_DB: finance_data
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password # **TO CHANGE!**
+    ports:
+      - "5432:5432" # Host:Container
+    volumes:
+      - db_data:/var/lib/postgresql/data # Persist data
+volumes:
+  db_data:

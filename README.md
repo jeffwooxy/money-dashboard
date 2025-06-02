@@ -1,1 +1,3 @@
-An interactive, web-based dashboard to visualize personal financial data, aiming to serve as a strong portfolio piece for Data Analyst roles.
+Personal Finance Dashboard
+
+Visualise financial data with this interactive, web-based dashboard. You can transform your transaction CSVs into clear, actionable insights. Currently under development.
